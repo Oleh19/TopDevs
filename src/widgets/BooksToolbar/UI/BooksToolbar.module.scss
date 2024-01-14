@@ -1,0 +1,37 @@
+.wrapper {
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.leftSort {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.sortText {
+  letter-spacing: 0.021px;
+  text-transform: capitalize;
+}
+
+.sortImage {
+  width: 24px;
+  height: 24px;
+}
+
+
+@media(max-width: 540px){
+.wrapper{
+  flex-direction: column;
+  gap: 10px;
+}
+}

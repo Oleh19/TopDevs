@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+.imageWrapper {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translate(5%, -5%) scale(1.05);
+  }
+}
+.image {
+  border-radius: 12px;
+  width: 190.4px;
+  height: 240px;
+}
+.view {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.author {
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.title {
+  line-height: 150%;
+  text-transform: capitalize;
+}
+.rating {
+  line-height: 150%;
+  text-transform: capitalize;
+}
